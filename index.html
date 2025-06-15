@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valeska Zambra</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+    header {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #dee2e6;
+    }
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h1, h2 {
+      color: #343a40;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #007bff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lang {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .es, .en {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="valeska-zambra3.jpeg" alt="Valeska Zambra" class="profile" />
+    <h1>Valeska Zambra</h1>
+    <p>PhD Candidate in Physics | Quantum Materials | Science Communicator</p>
+    <nav>
+      <a href="#about">About / Sobre mí</a>
+      <a href="#research">Research / Investigación</a>
+      <a href="#publications">Publications / Publicaciones</a>
+      <a href="#awards">Awards / Premios</a>
+      <a href="#contact">Contact / Contacto</a>
+    </nav>
+  </header>
+
+  <div class="lang-switch lang">
+    <button onclick="setLang('en')">English</button>
+    <button onclick="setLang('es')">Español</button>
+  </div>
+
+  <main>
+    <section id="about" class="en active">
+      <h2>About Me</h2>
+      <p>I am a Chilean physicist and PhD candidate at IST Austria, working in the Thermodynamics of Quantum Materials at the Microscale group. My research explores magnetic and topological phenomena in quantum materials, such as UTe<sub>2</sub> and 1T-TaS<sub>2</sub>, using high-field and low-temperature experimental techniques. I'm also passionate about science communication and gender equality in STEM.</p>
+    </section>
+
+    <section id="about" class="es">
+      <h2>Sobre mí</h2>
+      <p>Soy física chilena y candidata a doctora en el IST Austria, donde trabajo en el grupo de Termodinámica de Materiales Cuánticos a Microescala. Mi investigación se enfoca en fenómenos magnéticos y topológicos en materiales cuánticos como UTe<sub>2</sub> y 1T-TaS<sub>2</sub>, utilizando técnicas experimentales de campo magnético alto y temperaturas extremas. También me interesa la divulgación científica y la equidad de género en STEM.</p>
+    </section>
+
+    <section id="research" class="en active">
+      <h2>Research</h2>
+      <p>My research includes magnet time at NHMFL in the USA, studies of unconventional superconductivity, and experimental work on materials such as Tb<sub>2</sub>Ti<sub>2</sub>O<sub>7</sub>. I have collaborated internationally and worked under prestigious scholarships like the Marie Skłodowska-Curie Actions.</p>
+    </section>
+    <section id="research" class="es">
+      <h2>Investigación</h2>
+      <p>He trabajado en experimentos en laboratorios como el NHMFL en Estados Unidos, estudiando superconductividad no convencional y materiales como Tb<sub>2</sub>Ti<sub>2</sub>O<sub>7</sub>. He colaborado internacionalmente y recibido becas prestigiosas como la Marie Skłodowska-Curie Actions.</p>
+    </section>
+
+    <section id="publications" class="en active">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>Clerc, M. G., Zambra, V. et al. "Topological transitions in an oscillatory driven liquid crystal cell", <i>Scientific Reports</i>, 2020.</li>
+        <li>Zambra, V. et al. "Umbilical defect dynamics in an inhomogeneous nematic liquid crystal layer", <i>Physical Review E</i>, 2020.</li>
+        <li>Calisto, E., Zambra, V. et al. "Magnetic field-induced vortex triplet", <i>Physical Review Research</i>, 2020.</li>
+      </ul>
+    </section>
+    <section id="publications" class="es">
+      <h2>Publicaciones seleccionadas</h2>
+      <ul>
+        <li>Clerc, M. G., Zambra, V. et al. "Transiciones topológicas en una celda de cristal líquido excitada", <i>Scientific Reports</i>, 2020.</li>
+        <li>Zambra, V. et al. "Dinámica de defectos umbilicales en capas de cristal líquido", <i>Physical Review E</i>, 2020.</li>
+        <li>Calisto, E., Zambra, V. et al. "Trío de vórtices inducido por campo magnético", <i>Physical Review Research</i>, 2020.</li>
+      </ul>
+    </section>
+
+    <section id="awards" class="en active">
+      <h2>Awards & Recognitions</h2>
+      <ul>
+        <li>STEM Inspiradoras, Chilean Ministry of Science (2023)</li>
+        <li>100 Young Leaders, El Mercurio Magazine (2020)</li>
+        <li>Best Master Thesis in Physics, Universidad de Chile (2021)</li>
+        <li>Top 100 Downloaded Article, Scientific Reports (2020)</li>
+      </ul>
+    </section>
+    <section id="awards" class="es">
+      <h2>Premios y Reconocimientos</h2>
+      <ul>
+        <li>STEM Inspiradoras, Ministerio de Ciencia de Chile (2023)</li>
+        <li>100 Líderes Jóvenes, Revista El Mercurio (2020)</li>
+        <li>Mejor tesis de magíster en física, Universidad de Chile (2021)</li>
+        <li>Artículo más descargado, Scientific Reports (2020)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="en active">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:valeska.zambra@ist.ac.at">valeska.zambra@ist.ac.at</a></p>
+      <p>Location: Klosterneuburg, Austria</p>
+    </section>
+    <section id="contact" class="es">
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:valeska.zambra@ist.ac.at">valeska.zambra@ist.ac.at</a></p>
+      <p>Ubicación: Klosterneuburg, Austria</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Valeska Zambra
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.es, .en').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.' + lang).forEach(el => el.classList.add('active'));
+    }
+  </script>
+</body>
+</html>
